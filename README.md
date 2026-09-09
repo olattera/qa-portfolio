@@ -1,7 +1,5 @@
 README.md
 
-README.md
-
 QA Portfolio: DemoQA Manual Testing
 
 Project Overview
@@ -61,20 +59,8 @@ Tools
 * GitHub
 * Markdown
 
-qa-portfolio/
-│
-├── README.md
-├── TEST-PLAN.md
-├── TEST-CASES.md
-├── CHECKLIST.md
-├── BUG-REPORTS.md
-├── TEST-EXECUTION-REPORT.md
-│
-└── screenshots/
-
 QA Artifacts
 
-file.        description 
 TEST-PLAN.md Testing objectives, scope and approach
 
 TEST-CASES.md Detailed test scenarios

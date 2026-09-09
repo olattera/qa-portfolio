@@ -1,84 +1,123 @@
-# Test Plan
+Test Plan: DemoQA
 
-## 1. Project Overview
+1. Introduction
 
-This project is a manual testing practice for a web application.
+This test plan describes the approach for manual testing of selected functionality of the DemoQA web application.
 
-The goal is to verify the main functionality, user interface, navigation and basic usability of the application.
+The purpose of the project is to demonstrate the process of planning, designing and documenting manual web testing.
 
-## 2. Testing Objectives
+2. Test Object
 
-- Verify that the main features work as expected
-- Identify functional defects
-- Check navigation between pages
-- Verify user interface elements
-- Check input fields and validation
-- Verify application behavior in common and negative scenarios
+DemoQA is a public website designed for practicing software testing and browser automation.
 
-## 3. Scope
+Only selected modules are included in the testing scope.
 
-### In Scope
+3. Testing Scope
 
-- Functional testing
-- UI testing
-- Navigation testing
-- Input validation
-- Positive and negative test scenarios
-- Basic usability testing
-- Cross-browser checks
+In Scope
 
-### Out of Scope
+Elements
 
-- Performance testing
-- Security testing
-- Automation testing
-- Backend testing
+* Text Box
+* Check Box
+* Radio Button
+* Web Tables
 
-## 4. Test Types
+Forms
 
-- Smoke testing
-- Functional testing
-- Exploratory testing
-- Regression testing
-- Negative testing
-- UI testing
+* Practice Form
 
-## 5. Test Environment
+Alerts, Frames & Windows
 
-Application: Demo web application  
-Testing type: Manual  
-Browser: Google Chrome  
-Operating System: Windows / macOS  
-Tools: Browser DevTools, GitHub
+* Alerts
+* Browser Windows
 
-## 6. Test Deliverables
+Out of Scope
 
-The following documents will be created during testing:
+The following areas are not included:
 
-- Test cases
-- Checklist
-- Bug reports
-- Test execution report
+* performance testing;
+* security testing;
+* accessibility audit;
+* mobile application testing;
+* automated testing;
+* backend/database testing;
+* load and stress testing.
 
-## 7. Entry Criteria
+4. Testing Objectives
 
-Testing starts when the application is available and the main functionality can be accessed.
+The testing should verify:
 
-## 8. Exit Criteria
+1. Correct behavior of the selected UI elements.
+2. Validation of user input.
+3. Required-field behavior.
+4. Creation, editing and deletion of records.
+5. Correct display of submitted data.
+6. Correct behavior of browser windows and alerts.
+7. Basic usability of the selected functionality.
 
-Testing is completed when the planned test scenarios have been executed and identified defects have been documented.
+5. Test Approach
 
-## 9. Risks
+Testing includes:
 
-Possible risks include:
+* positive scenarios;
+* negative scenarios;
+* boundary-value checks where applicable;
+* validation checks;
+* exploratory testing;
+* smoke testing of the selected modules.
 
-- Changes to the application during testing
-- Temporary availability issues
-- Browser-specific behavior
-- Insufficient test data
+6. Test Environment
 
-## 10. Test Approach
+Browser
 
-Testing will be performed manually using predefined test cases and exploratory testing.
+Google Chrome
 
-Both positive and negative scenarios will be considered. Identified defects will be documented with steps to reproduce, expected result and actual result.
+Operating System
+
+Windows / macOS / Linux
+
+Application
+
+DemoQA web application
+
+Test Data
+
+Test data is created specifically for the testing scenarios and does not contain real personal information.
+
+7. Entry Criteria
+
+Testing can begin when:
+
+* DemoQA is accessible;
+* the selected modules are available;
+* test cases have been prepared;
+* test data is available.
+
+8. Exit Criteria
+
+Testing can be completed when:
+
+* all planned test cases have been executed;
+* identified defects have been documented;
+* test execution results have been summarized.
+
+9. Risks
+
+Potential risks include:
+
+* changes to the public DemoQA website;
+* temporary website availability problems;
+* differences in browser behavior;
+* dynamic test data;
+* previously fixed defects becoming unavailable.
+
+10. Deliverables
+
+The project includes:
+
+* Test Plan
+* Test Cases
+* Checklist
+* Bug Reports
+* Test Execution Report

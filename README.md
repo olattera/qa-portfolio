@@ -1,2 +1,2 @@
 # qa-portfolio
-This repository contains my QA practice materials: - test cases - bug reports - API testing examples - SQL practice queries  I am currently developing skills in manual QA and API testing, and expanding into test automation with Python.
+Manual QA testing portfolio: test cases, checklists and bug reports for a web application.

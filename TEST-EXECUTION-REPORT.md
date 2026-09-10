@@ -30,16 +30,23 @@ The execution set contains:
 
 4. Test Cases
 
-Total planned test cases: 24
-Module       Test Cases
-Text Box        3
-Check Box       3
-Radio Button    3
-Web Tables      6
-Practice Form   5
-Alerts          3
-Browser Windows 2
-Total           25
+Total planned test cases: 25
+
+Text Box        3;
+
+Check Box       3;
+
+Radio Button    3;
+
+Web Tables      6;
+
+Practice Form   5;
+
+Alerts          3;
+
+Browser Windows 2;
+
+Total           25.
 
 
 

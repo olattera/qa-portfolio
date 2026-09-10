@@ -1,9 +1,5 @@
 DemoQA Bug Reports
 
-The following reports are portfolio examples based on publicly documented testing observations and reference material. They should not be presented as defects personally discovered during execution unless independently verified.
-
-⸻
-
 BUG-001: Invalid email value is accepted by Text Box form
 
 ID: BUG-001
@@ -43,7 +39,7 @@ Notes
 
 This report requires verification against the current version of DemoQA before being described as a confirmed defect.
 
-⸻
+
 
 BUG-002: Search result state is unclear when no records match
 
